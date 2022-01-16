@@ -1,0 +1,26 @@
+@tailwind components;
+
+@layer components {
+  body {
+    @apply font-sans
+    leading-6	
+    text-gray-700
+    font-light 
+    text-sm;
+  }
+  .btn {
+    @apply py-2
+    px-6
+    bg-white
+    text-black
+    rounded-2xl
+     hover:bg-black 
+     hover:text-white 
+     focus:outline-none
+     focus:ring-2
+    focus:ring-blue-400
+     focus:ring-opacity-75
+     transition-all
+     duration-300;
+  }
+}
