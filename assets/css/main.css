@@ -6,8 +6,15 @@
     leading-6	
     text-gray-700
     font-light 
-    text-sm;
+    text-sm
+    dark:text-white
+    dark:bg-gray-700
+    bg-base;
   }
+  /* .container {
+    @apply xs:max-w-max xs:w-full xs:min-w-full;
+  } */
+
   .btn {
     @apply py-2
     px-6
