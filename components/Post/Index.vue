@@ -1,6 +1,6 @@
 <template>
   <span>
-    <aside v-for="post in posts" :key="post.id" class="post relative border border-gray-200 bg-white rounded-lg w-full mb-2">
+    <aside v-for="post in posts" :key="post.id" class="post relative md:border md:border-gray-200 bg-white md:rounded-lg w-full mb-2">
       <PostLiked :post="post" />
       <div class="post-content">
         <PostHeader :post="post" />
@@ -22,15 +22,17 @@
         </button>
       </div>
 
-      <div class="px-4">
+      <div class="px-4 md:border-0 border-b border-t border-gray-200">
         <PostReactions :post="post" />
       </div>
       <PostButtons :post="post" />
-      <PostCommentNewComment :post="post" @add-comment="addComment" />
-      <span v-if="post.comment">
-        <PostCommentFilterComments :post="post" />
-        <PostCommentComments :post="post" :comments="post.comments" />
-        <div class="pb-3"><PostCommentReply :post="post" :comments="post.comments" /></div>
+      <span class="hidden md:block">
+        <PostCommentNewComment :post="post" @add-comment="addComment" />
+        <span v-if="post.comment">
+          <PostCommentFilterComments :post="post" />
+          <PostCommentComments :post="post" :comments="post.comments" />
+          <div class="pb-3"><PostCommentReply :post="post" :comments="post.comments" /></div>
+        </span>
       </span>
     </aside>
   </span>

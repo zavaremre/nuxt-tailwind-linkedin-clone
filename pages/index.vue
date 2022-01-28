@@ -19,8 +19,8 @@
 
     <section class="container">
       <div class="flex flex-col md:flex-row flex-wrap md:gap-x-5">
-        <div class="basis-full max-w-full md:basis-1/5 lg:basis-1/5 max-w-1/5 min-w-0">
-          <div class="sidebar h-full">
+        <div class="hidden md:flex basis-full max-w-full md:basis-1/5 lg:basis-1/5 max-w-1/5 min-w-0">
+          <div class="sidebar h-full w-full">
             <div class="card border border-gray-200 rounded-lg bg-white overflow-hidden mb-3">
               <div class="header h-14 bg-cover bg-[url('~/assets/images/profile-bg.svg')]"></div>
               <div class="flex flex-col justify-center items-center w-full border-b border-gray-100">
@@ -82,17 +82,19 @@
         </div>
 
         <div class="flex-col basis-full max-w-full md:basis-1/2 md:max-w-1/2 min-w-0">
-          <div class="launchpad flex flex-col justify-center items-center box border border-gray-200 bg-white rounded-lg mb-2 p-5">
+          <div class="hidden md:flex launchpad flex-col justify-center items-center box border border-gray-200 bg-white rounded-lg mb-2 p-5">
             <img src="~/assets/images/lanchpad.svg" class="w-32 h-32 mb-5" alt="" />
             <h1 class="text-xl text-gray-800 font-normal text-center mb-2">Emre Zavar merhaba, işe alım yapıyor musunuz?</h1>
             <p class="text-lg text-gray-500 text-center">Hızlı bir şekilde harika bir iş alım yapmanın ücretsiz ve kolay yöntemlerini keşfedin.</p>
           </div>
-          <Status />
-          <Sort />
-          <Advice />
+          <span class="hidden md:block">
+            <Status />
+            <Sort />
+            <Advice />
+          </span>
           <Post />
         </div>
-        <div class="flex-1">
+        <div class="hidden md:block flex-1">
           <div class="sidebar mb-4 h-full">
             <div class="box border border-gray-200 bg-white rounded-lg mb-2">
               <h4 class="flex justify-between items-center font-medium text-gray-800 text-lg px-3 mt-2 mb-3">

@@ -1,5 +1,5 @@
 <template>
-  <div class="actions-bar flex justify-between items-center py-3 border-b border-gray-200 w-full">
+  <div class="actions-bar flex justify-between items-center py-3 md:border-b md:border-gray-200 w-full">
     <div class="flex justify-start items-center">
       <img src="~/assets/images/liked.svg" class="h-4" alt="" />
       <img src="~/assets/images/slap.svg" class="h-4 -ml-1" alt="" />
