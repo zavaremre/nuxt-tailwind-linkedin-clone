@@ -8,11 +8,13 @@ module.exports = {
 
     extend: {
       colors: {
-        'base': '#f3f2ef',
+        'bodybase': '#f3f2ef',
         'gold': '#915907',
         'input-color': '#eef3f8',
-        'f2':'#f2f2f2'
+        'f2':'#f2f2f2',
+        'muted':'#6b7280'
       },
+      
       screens: {
         xs: '100%',
         sm: '600px',

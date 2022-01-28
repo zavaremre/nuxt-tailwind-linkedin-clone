@@ -9,11 +9,13 @@
     text-sm
     dark:text-white
     dark:bg-gray-700
-    bg-base;
+    bg-bodybase;
   }
-  /* .container {
-    @apply xs:max-w-max xs:w-full xs:min-w-full;
-  } */
+  .container {
+    @apply sm:max-w-[100%]
+    md:max-w-[97%]
+    lg:max-w-[1128px];
+  }
 
   .btn {
     @apply py-2
