@@ -3,7 +3,7 @@
     <Modal button-class="flex justify-center items-center rounded-full" modal-class="bg-white top-56 right-0 left-0 rounded-xl overflow-hidden">
       <template #modal-button>
         <div class="image">
-          <a href="#"><img :src="require('~/assets/images/' + post.image)" :class="{ 'rounded-b-lg': rePost }" class="w-full" alt="" /></a>
+          <img :src="require('~/assets/images/' + post.image)" :class="{ 'rounded-b-lg': rePost }" class="w-full" alt="" />
         </div>
       </template>
 
@@ -41,6 +41,7 @@ export default {
         return {}
       },
     },
+
     rePost: {
       type: Boolean,
       default: () => {
