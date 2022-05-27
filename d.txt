@@ -1,0 +1,141 @@
+<template>
+        <div class="container mb-5">
+      <div class="md:flex">
+        <div class="w-full">
+          <ul class="flex justify-between space-x-5 overflow-hidden">
+            <li class="flex flex-col items-center">
+              <div class="flex justify-center items-center rounded-full bg-gradient-to-br from-yellow-200 to-red-500 w-20 h-20 p-0.5 mb-3">
+                <a href="#" class="bg-white p-0.5 rounded-full block transform transition hover:rotate-12">
+                  <img src="https://i.imgur.com/aq39RMA.jpg" class="rounded-full" />
+                </a>
+              </div>
+              <span class="text-xs overflow-hidden overflow-ellipsis">riksy_stam143543</span>
+            </li>
+            <li class="flex flex-col items-center">
+              <div class="flex justify-center items-center rounded-full bg-gradient-to-br from-yellow-200 to-red-500 w-20 h-20 p-0.5 mb-3">
+                <a href="#" class="bg-white p-0.5 rounded-full block transform transition hover:rotate-12">
+                  <img src="https://i.imgur.com/eMaYwXn.jpg" class="rounded-full" />
+                </a>
+              </div>
+              <span class="text-xs overflow-hidden overflow-ellipsis">tina_2342</span>
+            </li>
+            <li class="flex flex-col items-center">
+              <div class="flex justify-center items-center rounded-full bg-gradient-to-br from-yellow-200 to-red-500 w-20 h-20 p-0.5 mb-3">
+                <a href="#" class="bg-white p-0.5 rounded-full block transform transition hover:rotate-12">
+                  <img src="https://i.imgur.com/zQZSWrt.jpg" class="rounded-full" />
+                </a>
+              </div>
+              <span class="text-xs overflow-hidden overflow-ellipsis">sujan_tomy</span>
+            </li>
+            <li class="flex flex-col items-center">
+              <div class="flex justify-center items-center rounded-full bg-gradient-to-br from-yellow-200 to-red-500 w-20 h-20 p-0.5 mb-3">
+                <a href="#" class="bg-white p-0.5 rounded-full block transform transition hover:rotate-12">
+                  <img src="https://i.imgur.com/agRGhBc.jpg" class="rounded-full" />
+                </a>
+              </div>
+              <span class="text-xs overflow-hidden overflow-ellipsis">rujanta_98432</span>
+            </li>
+            <li class="flex flex-col items-center">
+              <div class="flex justify-center items-center rounded-full bg-gradient-to-br from-yellow-200 to-red-500 w-20 h-20 p-0.5 mb-3">
+                <a href="#" class="bg-white p-0.5 rounded-full block transform transition hover:rotate-12">
+                  <img src="https://i.imgur.com/uIgDDDd.jpg" class="rounded-full" />
+                </a>
+              </div>
+              <span class="text-xs overflow-hidden overflow-ellipsis">rony_dusak2</span>
+            </li>
+            <li class="flex flex-col items-center">
+              <div class="flex justify-center items-center rounded-full bg-gradient-to-br from-yellow-200 to-red-500 w-20 h-20 p-0.5 mb-3">
+                <a href="#" class="bg-white p-0.5 rounded-full block transform transition hover:rotate-12">
+                  <img src="https://i.imgur.com/tT8rjKC.jpg" class="rounded-full" />
+                </a>
+              </div>
+              <span class="text-xs overflow-hidden overflow-ellipsis">tom_hank_fan</span>
+            </li>
+            <li class="flex flex-col items-center">
+              <div class="flex justify-center items-center rounded-full bg-gradient-to-br from-yellow-200 to-red-500 w-20 h-20 p-0.5 mb-3">
+                <a href="#" class="bg-white p-0.5 rounded-full block transform transition hover:rotate-12">
+                  <img src="https://i.imgur.com/agRGhBc.jpg" class="rounded-full" />
+                </a>
+              </div>
+              <span class="text-xs overflow-hidden overflow-ellipsis">rujanta_98432</span>
+            </li>
+            <li class="flex flex-col items-center">
+              <div class="flex justify-center items-center rounded-full bg-gradient-to-br from-yellow-200 to-red-500 w-20 h-20 p-0.5 mb-3">
+                <a href="#" class="bg-white p-0.5 rounded-full block transform transition hover:rotate-12">
+                  <img src="https://i.imgur.com/uIgDDDd.jpg" class="rounded-full" />
+                </a>
+              </div>
+              <span class="text-xs overflow-hidden overflow-ellipsis">rony_dusak2</span>
+            </li>
+            <li class="flex flex-col items-center">
+              <div class="flex justify-center items-center rounded-full bg-gradient-to-br from-yellow-200 to-red-500 w-20 h-20 p-0.5 mb-3">
+                <a href="#" class="bg-white p-0.5 rounded-full block transform transition hover:rotate-12">
+                  <img src="https://i.imgur.com/tT8rjKC.jpg" class="rounded-full" />
+                </a>
+              </div>
+              <span class="text-xs overflow-hidden overflow-ellipsis">tom_hank_fan</span>
+            </li>
+            <li class="flex flex-col items-center">
+              <div class="flex justify-center items-center rounded-full bg-gradient-to-br from-yellow-200 to-red-500 w-20 h-20 p-0.5 mb-3">
+                <a href="#" class="bg-white p-0.5 rounded-full block transform transition hover:rotate-12">
+                  <img src="https://i.imgur.com/agRGhBc.jpg" class="rounded-full" />
+                </a>
+              </div>
+              <span class="text-xs overflow-hidden overflow-ellipsis">rujanta_98432</span>
+            </li>
+            <li class="flex flex-col items-center">
+              <div class="flex justify-center items-center rounded-full bg-gradient-to-br from-yellow-200 to-red-500 w-20 h-20 p-0.5 mb-3">
+                <a href="#" class="bg-white p-0.5 rounded-full block transform transition hover:rotate-12">
+                  <img src="https://i.imgur.com/agRGhBc.jpg" class="rounded-full" />
+                </a>
+              </div>
+              <span class="text-xs overflow-hidden overflow-ellipsis">rujanta_98432</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- <section class="flex justify-between">
+        <router-link to="/" class="flex flex-col justify-center items-center w-28 h-28 rounded-2xl text-center border-2 bg-pink-50 border-pink-100 text-pink-400 p-3">
+          <strong class="font-black uppercase text-md">Populer</strong>
+          <div class="divider w-4 h-1 rounded-full my-1 bg-pink-100"></div>
+          <span class="text-gray-500 text-xs"> Product</span>
+        </router-link>
+        <router-link to="/" class="flex flex-col justify-center items-center w-28 h-28 rounded-2xl text-center border-2 bg-blue-50 border-blue-100 text-blue-400 p-3">
+          <strong class="font-black uppercase text-md">Populer</strong>
+          <div class="divider w-4 h-1 rounded-full my-1 bg-blue-100"></div>
+          <span class="text-gray-500 text-xs"> Product</span>
+        </router-link>
+        <router-link to="/" class="flex flex-col justify-center items-center w-28 h-28 rounded-2xl text-center border-2 bg-red-50 border-red-100 text-red-400 p-3">
+          <strong class="font-black uppercase text-md">Populer</strong>
+          <div class="divider w-4 h-1 rounded-full my-1 bg-red-100"></div>
+          <span class="text-gray-500 text-xs"> Product</span>
+        </router-link>
+        <router-link to="/" class="flex flex-col justify-center items-center w-28 h-28 rounded-2xl text-center border-2 bg-orange-50 border-orange-100 text-orange-400 p-3">
+          <strong class="font-black uppercase text-md">Populer</strong>
+          <div class="divider w-4 h-1 rounded-full my-1 bg-orange-100"></div>
+          <span class="text-gray-500 text-xs"> Product</span>
+        </router-link>
+        <router-link to="/" class="flex flex-col justify-center items-center w-28 h-28 rounded-2xl text-center border-2 bg-green-50 border-green-100 text-green-400 p-3">
+          <strong class="font-black uppercase text-md">Populer</strong>
+          <div class="divider w-4 h-1 rounded-full my-1 bg-green-100"></div>
+          <span class="text-gray-500 text-xs"> Product</span>
+        </router-link>
+        <router-link to="/" class="flex flex-col justify-center items-center w-28 h-28 rounded-2xl text-center border-2 bg-indigo-50 border-indigo-100 text-indigo-400 p-3">
+          <strong class="font-black uppercase text-md">Populer</strong>
+          <div class="divider w-4 h-1 rounded-full my-1 bg-indigo-100"></div>
+          <span class="text-gray-500 text-xs"> Product</span>
+        </router-link>
+        <router-link to="/" class="flex flex-col justify-center items-center w-28 h-28 rounded-2xl text-center border-2 bg-cyan-50 border-cyan-100 text-cyan-400 p-3">
+          <strong class="font-black uppercase text-md">Populer</strong>
+          <div class="divider w-4 h-1 rounded-full my-1 bg-cyan-100"></div>
+          <span class="text-gray-500 text-xs"> Product</span>
+        </router-link>
+        <router-link to="/" class="flex flex-col justify-center items-center w-28 h-28 rounded-2xl text-center border-2 bg-purple-50 border-purple-100 text-purple-400 p-3">
+          <strong class="font-black uppercase text-md">Populer</strong>
+          <div class="divider w-4 h-1 rounded-full my-1 bg-purple-100"></div>
+          <span class="text-gray-500 text-xs"> Product</span>
+        </router-link>
+      </section>  
+    </div>-->
+</template>

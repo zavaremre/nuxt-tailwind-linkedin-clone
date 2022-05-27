@@ -1,20 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css');
+
 @tailwind components;
 
 @layer components {
   body {
     @apply font-sans
     leading-6	
-    text-gray-700
-    font-light 
+    text-gray-600
+    font-normal
+    antialiased 
     text-sm
     dark:text-white
-    dark:bg-gray-700
-    bg-bodybase;
+    dark:bg-black-900
+    bg-white;
   }
   .container {
     @apply sm:max-w-[100%]
     md:max-w-[97%]
     lg:max-w-[1128px];
+  }
+  .btn-glass {
+    @apply bg-white 
+    bg-opacity-20 
+    border-opacity-40 
+    border 
+    border-white 
+    text-white 
+    rounded-xl 
+    font-semibold 
+    py-2 
+    px-4;
   }
 
   .btn {
@@ -31,5 +47,17 @@
      focus:ring-opacity-75
      transition-all
      duration-300;
+  }
+  .perspective-100 {
+    perspective: 100vw;
+  }
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-visibility-hidden {
+    backface-visibility: hidden;
+  }
+  .rotateY-180deg {
+    transform: rotateY(180deg);
   }
 }

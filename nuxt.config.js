@@ -19,9 +19,17 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['@/assets/css/main.css'],
+  server: {
+    port: 8000, // default: 3000
+    host: '0.0.0.0', // default: localhost,
+    timing: {
+      total: true
+    }
+
+  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['~/plugins/graphcms.js'],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: {
